@@ -1,0 +1,4 @@
+# macOS GitHub runner only: SocketAppenderMessageLossTest.smallQueueSocketAppender exceeds its
+# 3000 ms @Timeout intermittently (socket reconnect timing on the slower macOS VM). The class
+# still runs on the Linux and Windows legs and on Travis.
+**/SocketAppenderMessageLossTest.java
